@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Road, Settings, MapPin, Shield, Zap, CheckCircle, ArrowRight, Truck, HardHat, Calendar } from 'lucide-react'
+import { Settings, MapPin, Shield, Zap, CheckCircle, ArrowRight, Truck, HardHat, Calendar } from 'lucide-react'
 
 export default function Services() {
   const scrollToContact = () => {
@@ -12,7 +12,7 @@ export default function Services() {
 
   const services = [
     {
-      icon: Road,
+      icon: Truck,
       title: 'Construção de Rodovias',
       description: 'Construção completa de rodovias desde o planejamento até a entrega final, utilizando as mais modernas técnicas de pavimentação.',
       features: ['Pavimentação Asfáltica', 'Terraplanagem', 'Drenagem', 'Sinalização'],

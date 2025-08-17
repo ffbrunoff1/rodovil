@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Menu, X, Road } from 'lucide-react'
+import { Menu, X, Truck } from 'lucide-react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -41,7 +41,7 @@ export default function Header() {
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
             <div className={`p-2 rounded-lg ${isScrolled ? 'bg-secondary-600' : 'bg-white'} shadow-lg`}>
-              <Road className={`h-6 w-6 lg:h-8 lg:w-8 ${isScrolled ? 'text-white' : 'text-secondary-600'}`} />
+              <Truck className={`h-6 w-6 lg:h-8 lg:w-8 ${isScrolled ? 'text-white' : 'text-secondary-600'}`} />
             </div>
             <span className={`text-2xl lg:text-3xl font-bold ${
               isScrolled ? 'text-primary-900' : 'text-white'

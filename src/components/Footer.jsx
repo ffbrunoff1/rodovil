@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Road, Mail, Phone, MapPin, ArrowUp } from 'lucide-react'
+import { Truck, Mail, Phone, MapPin, ArrowUp } from 'lucide-react'
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -83,7 +83,7 @@ export default function Footer() {
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
               <div className="p-2 bg-secondary-600 rounded-lg shadow-lg">
-                <Road className="h-8 w-8 text-white" />
+                <Truck className="h-8 w-8 text-white" />
               </div>
               <span className="text-3xl font-bold">
                 <span className="text-gradient">Rodovil</span>
